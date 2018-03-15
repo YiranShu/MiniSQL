@@ -1,0 +1,5 @@
+运行环境：Windows
+
+编译器：MinGW
+
+需要配置lib和include的路径信息，手动make生成exe文件
