@@ -1,5 +1,9 @@
-运行环境：Windows
+Operating system：Windows
 
-编译器：MinGW
+Compiler：MinGW g++
 
-需要配置lib和include的路径信息，手动make生成exe文件
+Compile this project with the provided makefile. 
+After compiling this project, you can input MySQL commands or "execfile <file name>;" to run SQL scripts.
+The mini MySQL supports searching, adding, deleting and changing records. Before that, you should create a table.
+It will be incredibly fast if you use the primary key to search a record or delete a record.
+If you want to quit, just input "quit;".
