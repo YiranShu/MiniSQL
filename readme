@@ -2,7 +2,8 @@ Operating system：Windows
 
 Compiler：MinGW g++
 
-Compile this project with the provided makefile. 
+First, create 3 folders where the source code files are. Name them "catalog", "index" and "record" respectively.
+Then, compile this project with the provided makefile. 
 After compiling this project, you can input MySQL commands or "execfile <file name>;" to run SQL scripts.
 The mini MySQL supports searching, adding, deleting and changing records. Before that, you should create a table.
 It will be incredibly fast if you use the primary key to search a record or delete a record.
